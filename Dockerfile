@@ -2,8 +2,8 @@ FROM fearoht/miniconda:latest
 
 RUN pip3 install pymongo==3.8.0 \ 
         dnspython==1.16.0 \
-        pandas==1.0.4 \
-        numpy==1.18.5 \
+        pandas==0.25.1 \
+        numpy==1.15.4 \
         mysql==0.0.2 \
         mysql-connector==2.2.9 \
         PyMySQL==0.9.3 \

@@ -2,7 +2,8 @@ FROM fearoht/miniconda:latest
 
 RUN pip3 install pymongo==3.8.0 \ 
         dnspython==1.16.0 \
-        pandas==1.0.4 \
+        numpy==1.15.4 \
+        pandas==0.25.1 \
         mysql==0.0.2 \
         mysql-connector==2.2.9 \
         PyMySQL==0.9.3 \
@@ -13,7 +14,6 @@ RUN pip3 install pymongo==3.8.0 \
         mongoengine==0.18.2 \
         pytest-runner==5.2 \ 
         setuptools>=38.6.0 \
-        numpy==1.18.5 \
         lightgbm==2.3.1 \
         requests==2.23.0 \
         scikit-learn==0.23.1 \

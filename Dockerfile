@@ -21,6 +21,7 @@ RUN pip3 install pymongo==3.8.0 \
         scipy==1.4.1 \
         boto3==1.14.2 \
         python-dotenv==0.13.0 \
-        pytest-runner==5.2
+        pytest-runner==5.2 \
+        pytest=2.9.1
 
 WORKDIR /app
